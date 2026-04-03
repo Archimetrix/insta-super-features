@@ -39,7 +39,7 @@ Since this extension is highly customized, you can install it directly from this
 
 ## 📸 Screenshots
 
-*(Tip: Add a screenshot of your beautiful new popup here! Just drop an image file into your repo and link it like this: `![Popup UI](imgs/screenshot.png)`)*
+* ![Popup UI](imgs/popup.png)
 
 ## 🤝 Contributing
 
