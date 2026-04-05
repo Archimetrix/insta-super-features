@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="imgs/lcon128.png" alt="Insta Auto Scroller " width="150"/>
+  <img src="imgs/icon128.png" alt="Insta Auto Scroller " width="150"/>
   <h1> Insta Auto Scroller</h1>
 
   ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
