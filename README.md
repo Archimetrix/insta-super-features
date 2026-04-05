@@ -11,6 +11,7 @@ Features a sleek, edge-to-edge glassmorphism UI with animated liquid gradients a
 * **Auto-Open Comments:** Automatically opens the comments section on every reel as soon as it comes into view.
 * **Auto-Unmute:** Ensures reels are unmuted by default so you never miss the audio.
 * **Modern UI:** A stunning, fully custom interface featuring floating background orbs, frosted glass elements, and a liquid-animated start button.
+* **Download Reels** Download reels with one click the modern extension will handle the download automatically through a external downloader .
 
 ## 🚀 How to Install (Developer Mode)
 
