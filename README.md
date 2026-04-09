@@ -18,6 +18,16 @@ Features a sleek, edge-to-edge glassmorphism UI with animated liquid gradients a
 * **Auto-Unmute:** Ensures reels are unmuted by default so you never miss the audio.
 * **Modern UI:** A stunning, fully custom interface featuring floating background orbs, frosted glass elements, and a liquid-animated start button.
 * **Download Reels** Download reels with one click the modern extension will handle the download automatically through a external downloader .
+  ---
+
+## 📥 Download
+
+<a href="https://addons.mozilla.org/en-US/firefox/addon/insta-auto-scroller/">
+  <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get the Add-on for Firefox" height="56">
+</a>
+<a href="https://github.com/Archimetrix/insta-auto-scroller/archive/refs/heads/main.zip">
+  <img src="https://img.shields.io/badge/Download_ZIP-101010?style=for-the-badge&logo=github&logoColor=white" alt="Download ZIP" height="56">
+</a>
 
 ## 🚀 How to Install (Developer Mode)
 
