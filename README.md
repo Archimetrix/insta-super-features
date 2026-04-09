@@ -28,6 +28,7 @@ Features a sleek, edge-to-edge glassmorphism UI with animated liquid gradients a
 <a href="https://github.com/Archimetrix/insta-auto-scroller/archive/refs/heads/main.zip">
   <img src="https://img.shields.io/badge/Download_ZIP-101010?style=for-the-badge&logo=github&logoColor=white" alt="Download ZIP" height="56">
 </a>
+> **Note:** Currently available officially on the Firefox Add-ons store. For Chrome, Edge, and Opera users, please use the **Download ZIP** button above and follow the quick **Local Installation** guide below.
 
 ## 🚀 How to Install (Developer Mode)
 
