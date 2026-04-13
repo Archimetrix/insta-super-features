@@ -3,7 +3,7 @@
   <h1> Insta Auto Scroller</h1>
 
   ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
-  ![Platform](https://img.shields.io/badge/platform-chromium_-green.svg)
+  ![Platform](https://img.shields.io/badge/platform-chromium-Firefox_-green.svg)
 </div># 📱 Insta Auto-Scroller
 
 A premium, modern Chrome extension that upgrades your Instagram Reels experience by automating tedious tasks. Sit back and watch—no more manual scrolling or unmuting.
@@ -33,7 +33,7 @@ Features a sleek, edge-to-edge glassmorphism UI with animated liquid gradients a
   <img src="https://img.shields.io/badge/Download_ZIP-101010?style=for-the-badge&logo=github&logoColor=white" alt="Download ZIP" height="56">
 </a>
 
-> **Note:** Currently available officially on the Firefox Add-ons store. For Chrome, Edge, and Opera users, please use the **Download ZIP** button above and follow the quick **Local Installation** guide below.
+> **Note:** Currently available officially on the Firefox Add-ons store and edge . For Chrome, brave and Opera users please use the **Download ZIP** button above and follow the quick **Local Installation** guide below.
 
 ---
 
