@@ -2,7 +2,7 @@
   <img src="imgs/icon128.png" alt="Insta Auto Scroller" width="150"/>
   <h1> Insta Super Features</h1>
 
-  ![Version](https://img.shields.io/badge/version-3.0-blue.svg)
+  ![Version](https://img.shields.io/badge/version-3.1-blue.svg)
   ![Platform](https://img.shields.io/badge/platform-Firefox%20%7C%20Chromium-green.svg)
 </div>
 
