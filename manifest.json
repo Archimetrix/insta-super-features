@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Insta Super Features",
-  "version": "3.0",
-  "description": "Auto-scrolling and auto comment opening for Reels, Auto unmute , Progress bar in reeels , Download Reels,Anonymous story viewer",
+  "version": "3.1",
+  "description": "Auto-scrolling and comment opening for Reels, Download reels , Anonomous story viewing, Auto unmute ,progressbar in reels",
   "icons": {
     "16": "imgs/icon16.png",
     "32": "imgs/icon32.png",
@@ -55,8 +55,9 @@
     "default_popup": "popup.html"
   },
   "host_permissions": [
-    "http://*/*",
-    "https://*/*"
+    "https://www.instagram.com/*",
+    "https://fastdl.app/*",
+    "https://sssinstagram.com/*"
   ],
   "web_accessible_resources": [
     {
