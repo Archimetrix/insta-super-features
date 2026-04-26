@@ -28,7 +28,7 @@ Features a sleek, edge-to-edge glassmorphism UI with animated liquid gradients a
 ## 📥 Download
 
 <p float="left">
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/insta-auto-scroller/" target="_blank">
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/insta-super-features/" target="_blank">
     <img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Get the Add-on for Firefox" height="56">
   </a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/insta-autoscroller/fldfpaedkhefgbglckdhgodlmhoaambn" target="_blank">
