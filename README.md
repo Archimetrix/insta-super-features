@@ -1,14 +1,14 @@
 <div align="center">
   <img src="imgs/icon128.png" alt="Insta Auto Scroller" width="150"/>
-  <h1> Insta Auto Scroller</h1>
+  <h1> Insta Super Features</h1>
 
-  ![Version](https://img.shields.io/badge/version-1.1-blue.svg)
+  ![Version](https://img.shields.io/badge/version-3.0-blue.svg)
   ![Platform](https://img.shields.io/badge/platform-Firefox%20%7C%20Chromium-green.svg)
 </div>
 
-# 📱 Insta Auto-Scroller
+# 📱 Insta Super Features
 
-A premium, modern Chrome extension that upgrades your Instagram Reels experience by automating tedious tasks. Sit back and watch—no more manual scrolling or unmuting.
+A premium, modern extension that upgrades your Instagram Reels experience by automating tedious tasks. Sit back and watch—no more manual scrolling or unmuting.
 
 Features a sleek, edge-to-edge glassmorphism UI with animated liquid gradients and customizable toggles.
 
