@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Insta Super Features",
   "version": "4",
-  "description": "Auto-scrolling and comment opening for Reels, Download reels , Anonomous story viewing, Auto unmute ,progressbar in reels",
+  "description": "Auto-scrolling and comment opening for Reels, plus a progress bar for Instagram,Download reels, auto unmute in reels",
   "icons": {
     "16": "imgs/icon16.png",
     "32": "imgs/icon32.png",
@@ -14,8 +14,23 @@
     "activeTab",
     "tabs"
   ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "insta-auto-scroller-v2@archimetrix",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ],
+        "optional": []
+      }
+    }
+  },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "scripts": [
+      "background.js"
+    ]
   },
   "content_scripts": [
     {

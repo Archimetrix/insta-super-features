@@ -1,30 +1,35 @@
-chrome.runtime.onInstalled.addListener(() => {
-    chrome.storage.sync.get(["showDownload", "autoRedirect", "autoReelsStart", "applicationIsOn", "autoComments", "autoUnmute"], (result) => {
-      if (result.showDownload === undefined) chrome.storage.sync.set({ showDownload: true });
-      if (result.autoRedirect === undefined) chrome.storage.sync.set({ autoRedirect: false });
-      if (result.autoReelsStart === undefined) chrome.storage.sync.set({ autoReelsStart: true });
-      if (result.applicationIsOn === undefined) chrome.storage.sync.set({ applicationIsOn: true });
-      if (result.autoComments === undefined) chrome.storage.sync.set({ autoComments: false });
-      if (result.autoUnmute === undefined) chrome.storage.sync.set({ autoUnmute: true });
+// Cross-browser compatibility shim
+// Firefox exposes `browser` (promise-based); Chrome exposes `chrome` (callback-based).
+// Using the `chrome` alias works in both, so we just unify the reference here.
+const api = typeof browser !== "undefined" ? browser : chrome;
+
+api.runtime.onInstalled.addListener(() => {
+    api.storage.sync.get(["showDownload", "autoRedirect", "autoReelsStart", "applicationIsOn", "autoComments", "autoUnmute"], (result) => {
+      if (result.showDownload === undefined) api.storage.sync.set({ showDownload: true });
+      if (result.autoRedirect === undefined) api.storage.sync.set({ autoRedirect: false });
+      if (result.autoReelsStart === undefined) api.storage.sync.set({ autoReelsStart: true });
+      if (result.applicationIsOn === undefined) api.storage.sync.set({ applicationIsOn: true });
+      if (result.autoComments === undefined) api.storage.sync.set({ autoComments: false });
+      if (result.autoUnmute === undefined) api.storage.sync.set({ autoUnmute: true });
     });
 });
 
-chrome.runtime.onMessage.addListener((data, sender, sendResponse) => {
+api.runtime.onMessage.addListener((data, sender, sendResponse) => {
   switch(data.event) {
     case "showDownload":
-      chrome.storage.sync.set( {"showDownload" : data.showDownloadValue} );
+      api.storage.sync.set( {"showDownload" : data.showDownloadValue} );
       break;
     case "autoRedirect":
-      chrome.storage.sync.set( {"autoRedirect" : data.autoRedirectValue} );
+      api.storage.sync.set( {"autoRedirect" : data.autoRedirectValue} );
       break;
     case "autoMute":
-      chrome.storage.sync.set( {"autoUnmute" : data.autoUnmuteValue} );
+      api.storage.sync.set( {"autoUnmute" : data.autoUnmuteValue} );
       break;
     case "autoComments":
-      chrome.storage.sync.set( {"autoComments" : data.autoCommentsValue} );
+      api.storage.sync.set( {"autoComments" : data.autoCommentsValue} );
       break;
     case "autoReelsStart":
-      chrome.storage.sync.set( {"autoReelsStart" : data.autoReelsValue} );
+      api.storage.sync.set( {"autoReelsStart" : data.autoReelsValue} );
       break;
   }
 });
