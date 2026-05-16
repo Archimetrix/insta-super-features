@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Insta Super Features",
-  "version": "3.1",
+  "version": "4",
   "description": "Auto-scrolling and comment opening for Reels, Download reels , Anonomous story viewing, Auto unmute ,progressbar in reels",
   "icons": {
     "16": "imgs/icon16.png",
